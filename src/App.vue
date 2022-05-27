@@ -12,7 +12,7 @@ export default {
     users:[]
   }
  },mounted(){
-   axios.get('https://vip88tv.com:3000/api/users').then(res=>{
+   axios.get('https://104.128.91.245:3000/api/users').then(res=>{
      this.users=res.data;
      console.log(res.data)
    })
