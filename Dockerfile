@@ -1,4 +1,4 @@
-FROM nginx
+FROM docker.io/nginx
 LABEL name="vue-front"
 LABEL version="1.0"
 COPY  ./dist/ /usr/share/nginx/html/
